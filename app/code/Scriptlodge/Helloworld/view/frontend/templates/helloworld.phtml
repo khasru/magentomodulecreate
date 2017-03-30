@@ -1,0 +1,17 @@
+
+<div class="helloworld-block" style="text-align: center;">
+<!--<h1><?php //echo $this->getHelloText();  ?></h1>--> 
+    <h1><?php echo $this->getBlockLabel() ?></h1> 
+    <?php if (count($this->getCollection()) > 0) { ?>
+        <div class="customer-list">
+            <h3 class="label">Example Customer List</h3>
+            <ul>
+                <?php foreach ($this->getCollection() as $item): ?>
+                    <li>
+                        <label><?php echo $item->getName() . ' --    ' . $item->getAddress() . ', ' . $item->getCity() . ', ' . $item->getCountry(); ?></label>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+    <?php } ?>
+</div>

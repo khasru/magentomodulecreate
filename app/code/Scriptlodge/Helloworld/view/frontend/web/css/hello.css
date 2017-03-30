@@ -1,0 +1,14 @@
+.helloworld-block{
+    clear: both;
+    float: none;
+    background: #eee;
+    padding: 20px;    
+}
+.helloworld-block .customer-list {
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+}
+.helloworld-block ul li{
+    text-align: left;
+}
