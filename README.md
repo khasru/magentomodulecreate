@@ -1,2 +1,1 @@
-# magentomodulecreate
-Creating Custom Module for Magento 2
+#Creating Custom Module for Magento 2
